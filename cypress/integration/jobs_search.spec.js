@@ -18,7 +18,7 @@ context('Jobs Search', () => {
     })
 
     //Added a negative scenario to validate search location with special characters
-   it('verify search location with spl char ', () => {
+   it('verify search location with spl char', () => {
       cy.get('#searchLocation').type('!@£$%^&*()')
       cy.get('[type="submit"]').click()
       cy.get('.results-count').should('include.text',"We didn't find any jobs that matched your criteria, check your address or expand the search range.")
