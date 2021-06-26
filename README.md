@@ -27,4 +27,5 @@ npm version (`6.14.12`)
 
 ## To run tests 
 `npm install`
+
 `npm test`
