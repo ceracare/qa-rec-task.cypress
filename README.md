@@ -23,3 +23,8 @@ npm version (`6.14.12`)
 
 1. `npm install`
 1. `npm test`
+
+
+## To run tests 
+`npm install`
+`npm test`
